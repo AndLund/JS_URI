@@ -1,23 +1,62 @@
+//1012
+
+// var input = require("fs").readFileSync("stdin", "utf8");
+
+// var valores = input.split(" ");
+
+// var A = parseFloat(valores.shift());
+// var B = parseFloat(valores.shift());
+// var C = parseFloat(valores.shift());
+// const pi = 3.14159;
+
+// // a) a área do triângulo retângulo que tem A por base e C por altura.
+// var areaTriangulo = (A * C) / 2;
+// // b) a área do círculo de raio C. (pi = 3.14159)
+// var areaCirculo = pi * C ** 2;
+// // c) a área do trapézio que tem A e B por bases e C por altura.
+// var areaTrapezio = ((A + B) * C) / 2;
+// // d) a área do quadrado que tem lado B.
+// var areaQuadrado = B ** 2;
+// // e) a área do retângulo que tem lados A e B.
+// var areaRetangulo = A * B;
+
+// console.log("TRIANGULO: " + areaTriangulo.toFixed(3));
+// console.log("CIRCULO: " + areaCirculo.toFixed(3));
+// console.log("TRAPEZIO: " + areaTrapezio.toFixed(3));
+// console.log("QUADRADO: " + areaQuadrado.toFixed(3));
+// console.log("RETANGULO: " + areaRetangulo.toFixed(3));
+
+//1011
+
+// var input = require("fs").readFileSync("stdin", "utf8");
+
+// var raio = parseFloat(input);
+
+// const pi = 3.14159;
+
+// var volumeEsfera = (4 / 3) * pi * raio ** 3;
+// console.log("VOLUME = " + volumeEsfera.toFixed(3));
+
 //1010
 
-function peca(codigo, quantidade, valor) {
-	this.codigo = codigo;
-	this.quantidade = quantidade;
-	this.valor = valor;
-}
+// function peca(codigo, quantidade, valor) {
+// 	this.codigo = codigo;
+// 	this.quantidade = quantidade;
+// 	this.valor = valor;
+// }
 
-var input = require("fs").readFileSync("stdin", "utf8");
-var linhas = input.split("\n");
+// var input = require("fs").readFileSync("stdin", "utf8");
+// var linhas = input.split("\n");
 
-var linha01 = linhas.shift().split(" ");
-var linha02 = linhas.shift().split(" ");
+// var linha01 = linhas.shift().split(" ");
+// var linha02 = linhas.shift().split(" ");
 
-var peca01 = new peca(linha01.shift(), linha01.shift(), linha01.shift());
-var peca02 = new peca(linha02.shift(), linha02.shift(), linha02.shift());
+// var peca01 = new peca(linha01.shift(), linha01.shift(), linha01.shift());
+// var peca02 = new peca(linha02.shift(), linha02.shift(), linha02.shift());
 
-var soma = peca01.quantidade * peca01.valor + peca02.quantidade * peca02.valor;
+// var soma = peca01.quantidade * peca01.valor + peca02.quantidade * peca02.valor;
 
-console.log("VALOR A PAGAR: R$ " + soma.toFixed(2));
+// console.log("VALOR A PAGAR: R$ " + soma.toFixed(2));
 
 //1009
 
